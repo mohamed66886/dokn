@@ -1,0 +1,256 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ruknhadhari.com/#organization",
+      "name": "الركن الحضاري",
+      "alternateName": "Hadari Design",
+      "url": "https://ruknhadhari.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ruknhadhari.com/web-logo.jpeg",
+        "width": 400,
+        "height": 400
+      },
+      "description": "شركة رائدة في الديكور والتصميم الداخلي في السعودية",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SA",
+        "addressRegion": "الرياض",
+        "addressLocality": "الرياض"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "availableLanguage": ["Arabic", "English"],
+          "areaServed": "SA"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "availableLanguage": ["Arabic"],
+          "areaServed": "SA"
+        }
+      ],
+      "sameAs": [
+        "https://twitter.com/rokn_hadari",
+        "https://instagram.com/rokn_hadari"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "الركن الحضاري"
+      },
+      "foundingDate": "2020",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": "10-50"
+      },
+      "industry": "Interior Design",
+      "serviceArea": {
+        "@type": "Country",
+        "name": "Saudi Arabia"
+      },
+      "knowsAbout": [
+        "Interior Design",
+        "Decoration",
+        "Architecture",
+        "Home Design",
+        "Office Design",
+        "Modern Decor"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "خدمات الديكور والتصميم",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تصميم داخلي للمنازل",
+              "description": "تصميم داخلي احترافي للمنازل والفلل بأحدث الأساليب"
+            },
+            "category": "Interior Design",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Saudi Arabia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تصميم المكاتب التجارية",
+              "description": "تصميم وتجهيز المكاتب التجارية والشركات"
+            },
+            "category": "Commercial Design",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Saudi Arabia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "الديكور الحديث",
+              "description": "حلول ديكور عصرية ومبتكرة للمساحات الداخلية"
+            },
+            "category": "Modern Decoration",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Saudi Arabia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "التشطيبات الكاملة",
+              "description": "خدمات تشطيب شاملة من الألف إلى الياء"
+            },
+            "category": "Complete Finishing",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Saudi Arabia"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ruknhadhari.com/#website",
+      "url": "https://ruknhadhari.com",
+      "name": "الركن الحضاري",
+      "description": "موقع شركة الركن الحضاري للديكور والتصميم الداخلي",
+      "inLanguage": "ar-SA",
+      "isPartOf": {
+        "@id": "https://ruknhadhari.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://ruknhadhari.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://ruknhadhari.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://ruknhadhari.com/#localbusiness",
+      "name": "الركن الحضاري",
+      "image": "https://ruknhadhari.com/web-logo.jpeg",
+      "url": "https://ruknhadhari.com",
+      "telephone": "+966-XXX-XXX-XXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "شارع الملك فهد",
+        "addressLocality": "الرياض",
+        "addressRegion": "الرياض",
+        "postalCode": "12345",
+        "addressCountry": "SA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.7136,
+        "longitude": 46.6753
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "currenciesAccepted": "SAR",
+      "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Bank Transfer"
+      ],
+      "hasMap": "https://maps.google.com/?q=24.7136,46.6753"
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ruknhadhari.com/#professionalservice",
+      "name": "الركن الحضاري",
+      "image": "https://ruknhadhari.com/web-logo.jpeg",
+      "url": "https://ruknhadhari.com",
+      "description": "خدمات احترافية في الديكور والتصميم الداخلي",
+      "serviceType": "Interior Design",
+      "provider": {
+        "@id": "https://ruknhadhari.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Saudi Arabia"
+      },
+      "category": [
+        "Interior Design",
+        "Decoration",
+        "Architecture",
+        "Home Improvement"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ruknhadhari.com/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ما هي خدمات الركن الحضاري؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نقدم خدمات شاملة في الديكور والتصميم الداخلي تشمل: تصميم المنازل والفلل، تجهيز المكاتب التجارية، الديكور الحديث، التشطيبات الكاملة، والاستشارات المتخصصة."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "أين تقع الشركة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "مقر شركة الركن الحضاري في المملكة العربية السعودية، ونخدم جميع المناطق بما في ذلك الرياض وجدة والدمام والمدن الأخرى."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تقدمون ضمان على الأعمال؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نقدم ضمان شامل على جميع أعمالنا ونلتزم بأعلى معايير الجودة في التنفيذ والتشطيب."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كم تستغرق مدة تنفيذ المشروع؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تختلف مدة التنفيذ حسب حجم وطبيعة المشروع، ولكن نلتزم بالجداول الزمنية المتفق عليها ونحرص على التسليم في الوقت المحدد."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تقدمون استشارة مجانية؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نقدم استشارة مجانية لجميع عملائنا لمناقشة متطلباتهم وتقديم أفضل الحلول التصميمية."
+          }
+        }
+      ]
+    }
+  ]
+}

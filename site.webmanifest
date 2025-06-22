@@ -1,0 +1,58 @@
+{
+    "name": "الركن الحضاري - خدمات ديكور وتصميم داخلي",
+    "short_name": "الركن الحضاري",
+    "description": "شركة رائدة في الديكور والتصميم الداخلي في السعودية",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1a365d",
+    "orientation": "portrait-primary",
+    "lang": "ar",
+    "dir": "rtl",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "16x16 32x32",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/web-logo.jpeg",
+            "sizes": "180x180",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/web-logo.jpeg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/web-logo.jpeg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ],
+    "categories": ["business", "lifestyle", "design"],
+    "shortcuts": [
+        {
+            "name": "خدماتنا",
+            "short_name": "خدمات",
+            "description": "تصفح خدمات الديكور والتصميم",
+            "url": "/services",
+            "icons": [{ "src": "/web-logo.jpeg", "sizes": "96x96" }]
+        },
+        {
+            "name": "مشاريعنا",
+            "short_name": "مشاريع",
+            "description": "شاهد أعمالنا السابقة",
+            "url": "/projects",
+            "icons": [{ "src": "/web-logo.jpeg", "sizes": "96x96" }]
+        },
+        {
+            "name": "تواصل معنا",
+            "short_name": "تواصل",
+            "description": "اتصل بنا للاستشارة",
+            "url": "/contact",
+            "icons": [{ "src": "/web-logo.jpeg", "sizes": "96x96" }]
+        }
+    ]
+}
